@@ -7,8 +7,6 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        // ▼ 여기를 수정!
-        // var(--font-pretendard)를 가장 앞에 둬서 최우선 적용
         sans: [
           "var(--font-pretendard)",
           "ui-sans-serif",
