@@ -3,7 +3,7 @@ import CoinList from "@/app/widgets/coin-list/ui/CoinList";
 
 export default function ExchangePage() {
   return (
-    <div className="max-w-7xl min-w-7xl min-h-screen mx-auto grid grid-cols-7 gap-1 mt-7">
+    <div className="max-w-7xl min-w-7xl min-h-screen mx-auto grid grid-cols-7 gap-1 mt-2">
       <div className="col-span-5 flex flex-col gap-1 p-2">
         <CoinNameItem koreanName="비트코인" ticker="KRW-BTC" />
         <div className="border p-2">
